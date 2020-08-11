@@ -36,7 +36,7 @@ class SpinningWheel extends StatefulWidget {
   final bool canInteractWhileSpinning;
 
   /// will be rendered on top of the wheel and can be used to show a selector
-  final Image secondaryImage;
+  final Widget secondaryImage;
 
   /// x dimension for the secondaty image, if provided
   /// if provided, has to be smaller than widget height
