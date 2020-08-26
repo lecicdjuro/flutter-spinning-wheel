@@ -18,7 +18,7 @@ class SpinningWheel extends StatefulWidget {
   final double height;
 
   /// image that will be used as wheel
-  final Widget image;
+  final Image image;
 
   /// number of equal divisions in the wheel
   final int dividers;
